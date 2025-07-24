@@ -34,7 +34,13 @@ function wp_chatbot_handle_query() {
     }
 
     $data = json_decode(wp_remote_retrieve_body($response), true);
-    $reply = $data['choices'][0]['message']['content'] ?? 'No reply from OpenAI.';
+    //$reply = $data['choices'][0]['message']['content'] ?? 'No reply from OpenAI.';
+    if (isset($data['choices'][0]['message']['content'])) {
+        $reply = $data['choices'][0]['message']['content'];
+    } else {
+        $reply = 'No reply from OpenAI.';
+        error_log('OpenAI response: ' . print_r($data, true)); // Log for debugging
+    }
 
     wp_send_json_success(['reply' => $reply]);
 }
