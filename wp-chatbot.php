@@ -68,7 +68,7 @@ function wp_chatbot_enqueue_assets() {
     ]);
 
     echo '
-    <div id="gpt-chat-launcher"><img src="' . plugins_url('public/chat-icon.png', __FILE__) . '" alt="Chat" /></div>
+    <div id="gpt-chat-launcher"><img src="' . plugins_url('public/images/chaticon.png', __FILE__) . '" alt="Chat" /></div>
     <div class="gpt-chatbox-wrapper" style="display:none;">
         <div class="gpt-chatbox">
             <div id="gpt-chat-close">❌</div>
