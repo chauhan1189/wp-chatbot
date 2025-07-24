@@ -24,14 +24,10 @@ A custom WordPress plugin that integrates OpenAI's ChatGPT into your website wit
 4. Go to Settings > GPT ChatBot and:
    Set your OpenAI API Key
    Enter your custom System Prompt (site-specific)
-5. Add the shortcode [gpt_chatbox] anywhere on your site (e.g., a page or widget).
+5. it will start showing a floating chat icon at the bottom right.
 
 ## ⚙️ Configuration
 API Key: Required for connection to OpenAI.
 
 Prompt: Customize the behavior of ChatGPT per site. Example:
-
-sql
-Copy
-Edit
 You are a helpful assistant who only talks about premium sports shoes.
