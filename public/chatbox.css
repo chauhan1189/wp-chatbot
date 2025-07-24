@@ -1,0 +1,32 @@
+.gpt-chatbox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+#gpt-chat-output {
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+.user-msg {
+    text-align: right;
+    background: #e1f5fe;
+    margin: 5px;
+    padding: 6px;
+}
+.bot-msg {
+    text-align: left;
+    background: #f1f8e9;
+    margin: 5px;
+    padding: 6px;
+}
+#gpt-chat-input {
+    width: 100%;
+    height: 50px;
+}
+#gpt-chat-send {
+    padding: 8px 20px;
+    margin-top: 5px;
+}
