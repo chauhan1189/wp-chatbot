@@ -1,12 +1,4 @@
 jQuery(document).ready(function ($) {
-    $('#gpt-chat-launcher').click(function () {
-        $('.gpt-chatbox-wrapper').fadeToggle();
-    });
-
-    $(document).on('click', '#gpt-chat-close', function () {
-        $('.gpt-chatbox-wrapper').fadeOut();
-    });
-
     $('#gpt-chat-send').click(function () {
         const message = $('#gpt-chat-input').val();
         if (!message.trim()) return;

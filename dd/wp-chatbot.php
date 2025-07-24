@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: WP ChatGPT Site Bot
+ * Plugin Name: WP Custom Chatbot using OpenAI database
  * Description: A site-specific ChatGPT bot with customizable prompts per site.
- * Version: 1.0.0
- * Author: Your Name
+ * Version: 100.0.0
+ * Author: Mangat Singh
  */
 
 if (!defined('ABSPATH')) exit;
